@@ -128,8 +128,17 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Hessix Brand */}
+          <div className="my-8 py-6 border-t border-gray-800">
+            <div className="flex flex-col items-center justify-center">
+              <p className="text-gray-400 text-sm font-medium tracking-wide">
+                赫极（Hessix）有限公司
+              </p>
+            </div>
+          </div>
+
           {/* Made with love */}
-          <div className="mt-8 text-center">
+          <div className="text-center">
             <p className="text-gray-600 text-sm flex items-center justify-center gap-1">
               Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> for mental health
             </p>
